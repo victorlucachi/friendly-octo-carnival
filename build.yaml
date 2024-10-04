@@ -26,3 +26,7 @@ include:
     shield: reviung41
     snippet: studio-rpc-usb-uart zmk-usb-logging
     cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=5000
+  - board: seeeduino_xiao_rp2040
+    shield: hummingbird
+    snippet: studio-rpc-usb-uart zmk-usb-logging
+    cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=5000
